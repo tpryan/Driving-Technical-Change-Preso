@@ -148,3 +148,21 @@ body {
 .reveal .tri-pane .pane {
   width: 33%;
   float: left; }
+.reveal .conference h2 {
+  text-align: left;
+  padding-bottom: 220px; }
+.reveal .blog h2 {
+  text-align: left;
+  padding-top: 580px; }
+.reveal .book h2 {
+  text-align: right; }
+.reveal .happy h2 {
+  text-align: right; }
+.reveal .overworked h2 {
+  padding-bottom: 420px; }
+.reveal .ignore h2 {
+  padding-bottom: 420px; }
+.reveal .sad h2 {
+  text-align: right; }
+.reveal .alone h2 {
+  padding-bottom: 220px; }

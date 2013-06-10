@@ -70,4 +70,48 @@ $heading1TextShadow: 3px 3px 5px #CCC;
 		}
 	}
 
+	.conference{
+		h2{
+			text-align: left;
+			padding-bottom: 220px;
+		}
+	}
+
+	.blog{
+		h2{
+			text-align: left;
+			padding-top: 580px;
+		}
+	}
+	.book{
+		h2{
+			text-align: right;
+		}
+	}
+	.happy{
+		h2{
+			text-align: right;
+		}
+	}
+	.overworked{
+		h2{
+			padding-bottom: 420px;
+		}
+	}
+	.ignore{
+		h2{
+			padding-bottom: 420px;
+		}
+	}
+	.sad{
+		h2{
+			text-align: right;
+		}
+	}
+	.alone{
+		h2{
+			padding-bottom: 220px;
+		}
+	}
+
 }
