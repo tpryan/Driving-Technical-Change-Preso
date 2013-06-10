@@ -1,0 +1,73 @@
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+// Override theme settings (see ../template/settings.scss)
+$mainColor: #000;
+$headingColor: #3CB3C2;
+$subheadingColor: #8E8879;
+$headingTextShadow: 3px 3px 5px #CCC;
+$mainFont: "MyriadPro-Light";
+$headingFont: "MyriadPro-Black";
+$backgroundColor: #F2EADA;
+$linkColor: #8b743d;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: rgba(79, 64, 28, 0.99);
+$heading1TextShadow: 3px 3px 5px #CCC;
+
+// Background generator
+@mixin bodyBackground() {
+	@include radial-gradient( rgba(247,242,211,1), rgba(255,255,255,1) );
+}
+
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+
+.reveal{
+	.question{
+		h2{
+			color: $subheadingColor;
+			strong{
+				color: $headingColor;
+			}
+		}
+	}
+	.section-title, .title{
+		h2{
+			color: $subheadingColor;
+		}
+	}
+	.skeptic{
+
+		ul{
+			border: 1px solid #CCC;
+			background-color: rgba(255,255,255,.7);
+			padding: 20px 50px;
+			ul{
+				border: none;
+				background-color: rgba(255,255,255,0);
+				padding: 0px 0px;
+			}
+		}
+	}
+
+	.split-pane{
+		.pane{
+			width: 50%;
+			float: left;
+		}
+	}
+	.tri-pane{
+		.pane{
+			width: 33%;
+			float: left;
+		}
+	}
+
+}
