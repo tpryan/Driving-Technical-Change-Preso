@@ -38,10 +38,10 @@ body {
   line-height: 0.9em;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  text-shadow: 3px 3px 5px #cccccc; }
+  text-shadow: 3px 3px 5px #333333; }
 
 .reveal h1 {
-  text-shadow: 3px 3px 5px #cccccc; }
+  text-shadow: 3px 3px 5px #333333; }
 
 /*********************************************
  * LINKS
@@ -142,6 +142,17 @@ body {
     border: none;
     background-color: rgba(255, 255, 255, 0);
     padding: 0px 0px; }
+.reveal .tactic .split-pane {
+  text-align: left;
+  border: 1px solid #CCC;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px 50px; }
+  .reveal .tactic .split-pane:after {
+    content: "";
+    clear: both;
+    display: table; }
+  .reveal .tactic .split-pane p {
+    text-align: left; }
 .reveal .split-pane .pane {
   width: 50%;
   float: left; }
@@ -165,4 +176,59 @@ body {
 .reveal .sad h2 {
   text-align: right; }
 .reveal .alone h2 {
+  color: #3cb3c2;
   padding-bottom: 220px; }
+  .reveal .alone h2 strong {
+    color: #f2eada; }
+.reveal .me h2 {
+  padding-bottom: 420px;
+  color: #f2eada; }
+.reveal .notice h2 {
+  padding-bottom: 320px;
+  text-align: left; }
+.reveal .pattern h2 {
+  color: #3cb3c2; }
+  .reveal .pattern h2 strong {
+    color: #f2eada; }
+.reveal .react h2 {
+  color: #3cb3c2;
+  text-align: left;
+  padding-top: 320px; }
+  .reveal .react h2 strong {
+    color: #f2eada; }
+.reveal .wait h2 {
+  padding-bottom: 320px;
+  text-align: left;
+  color: #f2eada; }
+.reveal .problem h2 {
+  padding-bottom: 420px;
+  text-align: left; }
+.reveal .ignore2 h2 {
+  padding-bottom: 420px;
+  text-align: right; }
+.reveal .willing h2 {
+  padding-bottom: 120px; }
+.reveal .harness h2 {
+  padding-bottom: 420px; }
+.reveal .management h2 {
+  text-align: left;
+  width: 600px; }
+.reveal .manipulation h2 {
+  padding-top: 220px;
+  text-align: left; }
+.reveal .politics h2 {
+  padding-bottom: 420px;
+  text-align: right; }
+.reveal .douche h2 {
+  padding-bottom: 420px;
+  text-align: left; }
+.reveal .clock h2 {
+  text-align: left;
+  width: 400px; }
+.reveal .path h2 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 3px #555; }
+.reveal .path h2:nth-of-type(2) {
+  text-align: left; }
+.reveal .path h2:nth-of-type(4) {
+  text-align: right; }

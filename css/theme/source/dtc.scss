@@ -8,14 +8,15 @@
 $mainColor: #000;
 $headingColor: #3CB3C2;
 $subheadingColor: #8E8879;
-$headingTextShadow: 3px 3px 5px #CCC;
+$lightheadingColor: #F2EADA;
+$headingTextShadow: 3px 3px 5px #333;
 $mainFont: "MyriadPro-Light";
 $headingFont: "MyriadPro-Black";
 $backgroundColor: #F2EADA;
 $linkColor: #8b743d;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: rgba(79, 64, 28, 0.99);
-$heading1TextShadow: 3px 3px 5px #CCC;
+$heading1TextShadow: 3px 3px 5px #333;
 
 // Background generator
 @mixin bodyBackground() {
@@ -54,6 +55,21 @@ $heading1TextShadow: 3px 3px 5px #CCC;
 				background-color: rgba(255,255,255,0);
 				padding: 0px 0px;
 			}
+		}
+	}
+	.tactic .split-pane{
+		text-align: left;
+		border: 1px solid #CCC;
+		background-color: rgba(255,255,255,.7);
+		padding: 20px 50px;
+		&:after{
+			content:"";
+			clear: both;
+			display: table;
+		}
+
+		p{
+			text-align: left;
 		}
 	}
 
@@ -110,7 +126,133 @@ $heading1TextShadow: 3px 3px 5px #CCC;
 	}
 	.alone{
 		h2{
+			color: $headingColor;
 			padding-bottom: 220px;
+			strong{
+				color: $lightheadingColor;
+			}
+		}
+	}
+	.me{
+		h2{
+			padding-bottom: 420px;
+			color: $lightheadingColor;
+		}
+	}
+	.notice{
+		h2{
+			padding-bottom: 320px;
+			text-align: left;
+
+		}
+	}
+	.pattern{
+		h2{
+			color: $headingColor;
+			strong{
+				color: $lightheadingColor;
+			}
+		}
+	}
+	.react{
+		h2{
+			color: $headingColor;
+			text-align: left;
+			padding-top: 320px;
+			strong{
+				color: $lightheadingColor;
+			}
+		}
+	}
+	.wait{
+		h2{
+			padding-bottom: 320px;
+			text-align: left;
+			color: $lightheadingColor;
+
+		}
+	}
+	.problem{
+		h2{
+			padding-bottom: 420px;
+			text-align: left;
+
+		}
+	}
+
+
+
+	.ignore2{
+		h2{
+			padding-bottom: 420px;
+			text-align: right;
+
+		}
+	}
+
+	.willing{
+		h2{
+			padding-bottom: 120px;
+
+		}
+	}
+
+	.harness{
+		h2{
+			padding-bottom: 420px;
+
+		}
+	}
+	.management{
+		h2{
+			text-align: left;
+			width: 600px;
+
+		}
+	}
+
+
+
+
+	.manipulation{
+		h2{
+			padding-top: 220px;
+			text-align: left;
+
+		}
+	}
+	.politics{
+		h2{
+			padding-bottom: 420px;
+			text-align: right;
+
+		}
+	}
+	.douche{
+		h2{
+			padding-bottom: 420px;
+			text-align: left;
+
+		}
+	}
+	.clock{
+		h2{
+			text-align: left;
+			width: 400px;
+
+		}
+	}
+	.path{
+		h2{
+			font-size: 3rem;
+			text-shadow: 2px 2px 3px #555;
+
+		}
+		h2:nth-of-type(2){
+			text-align: left;
+		}
+		h2:nth-of-type(4){
+			text-align: right;
 		}
 	}
 
