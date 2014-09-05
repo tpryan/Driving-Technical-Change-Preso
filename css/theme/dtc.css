@@ -146,7 +146,7 @@ body {
   text-align: left;
   border: 1px solid #CCC;
   background-color: rgba(255, 255, 255, 0.7);
-  padding: 20px 50px; }
+  padding: 20px 10px; }
   .reveal .tactic .split-pane:after {
     content: "";
     clear: both;
@@ -154,8 +154,10 @@ body {
   .reveal .tactic .split-pane p {
     text-align: left; }
 .reveal .split-pane .pane {
-  width: 50%;
+  width: 40%;
   float: left; }
+.reveal .split-pane .pane:nth-child(2) {
+  margin-left: 10%; }
 .reveal .tri-pane .pane {
   width: 33%;
   float: left; }
@@ -232,3 +234,10 @@ body {
   text-align: left; }
 .reveal .path h2:nth-of-type(4) {
   text-align: right; }
+.reveal img.transparent {
+  border: none;
+  background: none;
+  box-shadow: none;
+  float: right;
+  margin-right: 50px;
+  margin-top: -20px; }

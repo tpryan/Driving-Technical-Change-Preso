@@ -61,7 +61,7 @@ $heading1TextShadow: 3px 3px 5px #333;
 		text-align: left;
 		border: 1px solid #CCC;
 		background-color: rgba(255,255,255,.7);
-		padding: 20px 50px;
+		padding: 20px 10px;
 		&:after{
 			content:"";
 			clear: both;
@@ -75,8 +75,11 @@ $heading1TextShadow: 3px 3px 5px #333;
 
 	.split-pane{
 		.pane{
-			width: 50%;
+			width: 40%;
 			float: left;
+		}
+		.pane:nth-child(2){
+			margin-left: 10%;
 		}
 	}
 	.tri-pane{
@@ -255,5 +258,13 @@ $heading1TextShadow: 3px 3px 5px #333;
 			text-align: right;
 		}
 	}
+    img.transparent{
+        border: none;
+        background: none;
+        box-shadow: none;
+        float: right;
+        margin-right: 50px;
+        margin-top: -20px;  
+    }    
 
 }
